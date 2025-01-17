@@ -1,0 +1,1002 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img {
+    /* max-width: 275px;
+    height: 37px; */
+    width: 100%;
+}
+
+.nav-links ul {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.nav-item a {
+    color: #001342;
+    font-size: 20px;
+    padding: 0px 11px;
+}
+
+.pad {
+    padding: 5px 0px;
+}
+
+.nav-item a:hover {
+    color: red;
+}
+
+.hero {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(0, 0, 0, -0.5)), url(../images/HomePageBeef_PosterImage.png);
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-content {
+    padding: 0px 140px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding-right: 35px;
+    width: 57%;
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    color: #e74c3c;
+    margin-bottom: 30px;
+}
+
+
+
+.hero-content h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #001342;
+}
+
+.card-container {
+    display: flex;
+    gap: 10px;
+    padding: 15px 90px;
+    margin-top: 115px;
+    margin-bottom: 0px;
+}
+
+.card-container {
+    display: flex;
+    gap: 10px;
+    padding: 15px 90px;
+    margin-top: 115px;
+    margin-bottom: 0px;
+}
+
+.arrow-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 17px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    /* position: relative; */
+    width: 25%;
+    height: 250px;
+    margin: 5px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px 3px rgb(0, 0, 0, 0.2);
+    border: 2px solid white;
+}
+
+.card-1 {
+    position: relative;
+    background: url("../images/Agribusiness.webp") no-repeat center center/cover;
+}
+
+.card-1::before {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #011343;
+    opacity: 0.7;
+    height: 100%;
+
+    border-radius: 15px;
+}
+
+.card-2 {
+    position: relative;
+    background: url("../images//Animal\ Health.webp") no-repeat center center/cover;
+}
+
+.card-2::before {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #011343;
+    opacity: 0.7;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.card-3 {
+    position: relative;
+    background: url("../images/Equipment-scaled.webp") no-repeat center center/cover;
+}
+
+.card-3::before {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #011343;
+    opacity: 0.7;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.card-4 {
+    position: relative;
+    background: url("../images/golf.webp") no-repeat center center/cover;
+}
+
+.card-4::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #011343;
+    opacity: 0.7;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.cards img {
+    opacity: 1;
+    width: 71px;
+    height: 70px;
+    position: relative;
+    left: 20px;
+    top: 121px;
+
+}
+
+.cards p {
+    position: relative;
+    color: white;
+    text-align: left;
+    top: 130px;
+    left: 8px;
+}
+
+.con h2 {
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.con {
+
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+.sqaure {
+    width: 100%;
+}
+
+.square img {
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    padding-left: 40px;
+}
+
+.inside {
+    padding: 0px 20px;
+}
+
+.picture {
+    padding: 60px 11px;
+}
+
+.inside h3 {
+    color: #BC2C00;
+}
+
+.box hr {
+    width: 100%;
+    color: #70707066;
+    size: 1px;
+    opacity: 0.6;
+}
+
+.contact-content {
+    background: url("../images/contact\ bg\ image.webp") no-repeat center center/cover;
+    border-radius: 60px;
+}
+
+.cred {
+    display: flex;
+    align-items: center;
+    padding: 22px 141px;
+}
+
+.picture {
+    background-color: white;
+    padding: 14px 15px;
+    border-radius: 30px;
+}
+
+.details {
+    color: white;
+    padding: 8px 17px;
+}
+
+.details p {
+    margin-bottom: 0px;
+}
+
+.img-1 {
+    width: 28px;
+    height: 29px;
+}
+
+.mar {
+    margin-top: 195px;
+}
+
+.contact-content h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.right-part {
+    margin: 95px 0px;
+}
+
+.right-part form {
+    padding: 20px 0px;
+}
+
+.right-part form input {
+    display: block;
+    background: transparent;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    width: 90%;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(210, 201, 201);
+}
+
+.right-part form input::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.btn-1 {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.btn-1:hover {
+    background-color: #c0392b;
+}
+
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 38px;
+}
+
+.left-container h3 {
+    color: #252525;
+}
+
+.case-studies {
+    margin-top: 10px;
+
+}
+
+.right-container {
+    padding-left: 10px;
+}
+
+.left-container img {
+    width: 100%;
+    /* height: 362px; */
+    margin-bottom: 21px;
+}
+
+.left-container p {
+    font-size: 18px;
+}
+
+.read-more {
+    color: #BC2C00;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.case-studies h2 {
+    color: #011343;
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.right-container h4 {
+    font-size: 21px;
+}
+
+
+.right-container img {
+    width: 100%;
+
+}
+
+.col-9 p {
+    margin-bottom: 3px;
+}
+
+.col-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.pad {
+    padding: 8px 0px;
+}
+
+.clients h2 {
+    font-size: 50px;
+}
+
+.clients {
+    margin-top: 150px;
+    background-color: rgba(233, 233, 233, 0.4);
+}
+
+.left-client {
+    padding: 180px 30px 105px 130px;
+}
+
+.left-client h2 {
+    color: black;
+    font-size: 50px;
+    opacity: 100%;
+}
+
+.left-client p {
+    font-size: 17px;
+    padding: 15px 5px;
+}
+
+
+
+.person-img {
+    padding: 12px 0px 12px 12px;
+}
+
+.person-img img {
+    width: 100%;
+}
+
+.right-client {
+    background-color: white;
+    margin: 150px 60px 10px 0px;
+}
+
+.clients h4 {
+    font-size: 22px;
+}
+
+.person-content {
+    padding: 14px 15px 0px 18px;
+}
+
+.arrow-icons-2 {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding-right: 58px;
+}
+
+.banner {
+    background-color: #011343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px 30px;
+}
+
+.banner h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn-2 {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 18px;
+    margin: 25px 0px;
+    font-size: 23px;
+}
+
+.address img {
+    width: 100%;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 310px;
+}
+
+.contact-details img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    padding: 140px 60px;
+    padding-right: 100px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    background-color: #F6F6F6;
+}
+
+.footer p {
+    display: inline;
+    border-right: 1px solid #6E6E6E;
+    padding: 0px 22px;
+    color: #011343;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .left-client {
+        padding: 180px 30px 105px 60px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .nav-item a {
+        font-size: 18px;
+        padding: 0px 11px;
+    }
+
+    .hero-content p {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .hero-content {
+        padding: 0px 100px;
+    }
+
+    .cards {
+        width: 30%;
+    }
+
+    .card-container {
+        padding: 15px 12px;
+    }
+
+    .card-4 {
+        display: none;
+    }
+
+    .arrow-icons {
+        padding-right: 30px;
+    }
+
+    .left-container img {
+        padding-bottom: 24px;
+        margin-bottom: 0px;
+        height: 295px;
+    }
+
+    .cred {
+        padding: 22px 81px;
+    }
+
+    .left-client {
+        padding: 166px 25px 100px 18px;
+    }
+
+    .left-client h2 {
+        font-size: 48px;
+    }
+
+    .right-client {
+        margin: 137px 15px 10px 0px;
+
+    }
+
+    .person-content {
+        padding: 6px 10px 0px 10px;
+    }
+
+    .person-content p {
+        margin-bottom: 5px;
+    }
+
+    .person-content h4 {
+        margin-bottom: 5px;
+    }
+
+    .person-img {
+        padding: 12px 0px 1px 7px;
+    }
+
+    .arrow-icons-2 {
+        padding-right: 15px;
+    }
+
+    .logo {
+        padding: 140px 60px;
+
+    }
+
+    .contact-details {
+        padding-left: 274px;
+    }
+
+
+}
+
+@media screen and (max-width:991px) {
+
+    header {
+        position: relative;
+    }
+
+    .navbar {
+        position: unset;
+    }
+
+    #navbarSupportedContent {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        background: transparent;
+        background-color: white;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .nav-item {
+        padding: 4px 6px;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0px;
+    }
+
+    .hero-content {
+        padding: 0px 27px;
+    }
+
+    .hero-content p {
+        margin-bottom: 19px;
+        width: 90%;
+    }
+
+    .hero-content h1,
+    .hero-content h2 {
+        font-size: 48px;
+    }
+
+    .hero-content h2 {
+        margin-bottom: 12px;
+    }
+
+    .navbar-brand img {
+        width: 230px;
+    }
+
+    .card-container {
+        margin-top: 65px;
+    }
+
+    .arrow-icons {
+        margin-bottom: 0px;
+    }
+
+    .con {
+        margin-top: 60px;
+    }
+
+    .con h2 {
+        margin-bottom: 50px;
+    }
+
+    .square img {
+        width: 100%;
+        padding: 0px 81px;
+        padding-bottom: 50px;
+    }
+
+    .left-container p {
+        margin-bottom: 0px;
+    }
+
+    .left-container img {
+        padding-bottom: 0px;
+        height: auto;
+    }
+
+    .right-container {
+        margin-top: 50px;
+    }
+
+    .cred {
+        padding: 22px 30px;
+    }
+
+    .contact-content h2 {
+        font-size: 37px;
+    }
+
+    .right-part form {
+        padding: 12px 0px;
+    }
+
+    .right-part form input {
+        margin-bottom: 10px;
+        padding: 11px 12px;
+        width: 83%;
+    }
+
+    .mar {
+        margin-top: 240px;
+    }
+
+    .btn-1 {
+        margin-top: 28px;
+    }
+
+    .case-studies h2 {
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+
+    .right-client {
+        margin: 10px 15px 10px 11px;
+    }
+
+    .left-client {
+        padding: 90px 40px 14px 16px;
+    }
+
+    .left-client h2 {
+        font-size: 45px;
+        display: inline-block;
+        padding: 0px 5px;
+    }
+
+    .left-client p {
+        width: 77%;
+    }
+
+    .arrow-icons-2 {
+        margin-bottom: 75px;
+    }
+
+    .person-img {
+        padding: 19px 19px 5px 20px;
+    }
+
+    .banner h2 {
+        font-size: 48px;
+    }
+
+    .logo {
+        padding: 140px 0px;
+        padding-right: 50px;
+    }
+
+    .contact-details {
+        padding-left: 232px;
+    }
+
+    .footer {
+        padding: 31px 0px;
+    }
+
+    .footer p {
+        padding: 0px 24px;
+    }
+
+
+
+}
+
+@media screen and (max-width:767px) {
+    .hero {
+        height: 70vh;
+    }
+
+    .hero-content p {
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+
+    .hero-content {
+        padding: 0px 23px;
+    }
+
+    .hero-content h2 {
+        font-size: 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .cards {
+        width: 45%;
+    }
+
+    .card-3 {
+        display: none;
+    }
+
+    .square img {
+        padding: 0px 50px;
+        padding-bottom: 50px;
+    }
+
+    .right-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .left-container {
+        padding-right: 0px;
+    }
+
+    .mar {
+        margin-top: 117px;
+    }
+
+    .cred {
+        padding: 22px 125px;
+    }
+
+    .right-part {
+        margin: 60px 0px;
+        padding: 0px 60px;
+    }
+
+    .btn-1 {
+        margin-top: 21px;
+    }
+
+    .right-part form input {
+        width: 90%;
+    }
+
+    .banner h2 {
+        font-size: 46px;
+    }
+
+
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    .logo {
+        padding: 100px 40px;
+        padding-bottom: 50px;
+    }
+
+    .contact-details {
+        padding: 0px 62px;
+        margin-bottom: 50px;
+    }
+
+    .contact-details h3 {
+        font-size: 31px;
+    }
+
+    .contact-details p {
+        font-size: 20px;
+    }
+
+    .footer p {
+        padding: 0px 19px;
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+
+    .hero {
+        height: 65vh;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 17px;
+    }
+
+    .hero-content h2 {
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+
+
+    .navbar-brand img {
+        margin-left: 15px;
+    }
+
+    .card-2 {
+        display: none;
+    }
+
+    .cards {
+        width: 70%;
+    }
+
+    .card-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arrow-icons {
+        gap: 10px;
+        padding-right: 92px;
+    }
+
+    .square img {
+        padding: 0px 10px;
+        padding-bottom: 50px;
+    }
+
+    .square {
+        margin: 30px;
+    }
+
+    .con h2 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        padding: 0px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inside {
+        padding: 5px 6px;
+    }
+
+    .inside h3 {
+        text-align: center;
+    }
+.case-studies{
+    padding: 0px 20px;
+}
+    
+    .right-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .right-container img {
+        width: 90%;
+        padding: 26px 15px;
+    }
+
+    .case-studies hr{
+        width: 80%;
+    }
+    .left-container {
+        padding-right: 0px;
+    }
+
+    .pad {
+        padding: 8px 8px;
+    }
+.wi{
+    width: 100%;
+}
+
+    .cred {
+        padding: 18px 20px;
+    }
+
+    .contact-content h2 {
+        font-size: 35px;
+        display: inline;
+    }
+
+    .right-part {
+        padding: 0px 10px;
+    }
+
+    .right-part form input {
+        width: 98%;
+    }
+
+    .banner h2 {
+        font-size: 44px;
+    }
+
+    .navbar-brand img {
+        width: 175px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer p {
+        padding: 8px 15px;
+        border: none;
+    }
+}
