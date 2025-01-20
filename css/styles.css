@@ -393,7 +393,7 @@
 }
 
 .left-client {
-    padding: 180px 30px 105px 130px;
+  padding: 180px 30px 105px 60px;
 }
 
 .left-client h2 {
@@ -504,14 +504,8 @@
 
 
 
-@media screen and (max-width: 1400px) {
-    .left-client {
-        padding: 180px 30px 105px 60px;
-    }
 
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
 
     .nav-item a {
         font-size: 18px;
