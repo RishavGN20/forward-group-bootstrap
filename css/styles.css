@@ -106,7 +106,7 @@
     background: url("../images/Agribusiness.webp") no-repeat center center/cover;
 }
 
-.card-1::before {
+.card-1::before,.card-2::before,.card-3::before,.card-4::before{
 
     position: absolute;
     content: "";
@@ -116,7 +116,6 @@
     background: #011343;
     opacity: 0.7;
     height: 100%;
-
     border-radius: 15px;
 }
 
@@ -125,54 +124,15 @@
     background: url("../images//Animal\ Health.webp") no-repeat center center/cover;
 }
 
-.card-2::before {
-
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    background: #011343;
-    opacity: 0.7;
-    height: 100%;
-    border-radius: 15px;
-}
-
 .card-3 {
     position: relative;
     background: url("../images/Equipment-scaled.webp") no-repeat center center/cover;
-}
-
-.card-3::before {
-
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    background: #011343;
-    opacity: 0.7;
-    height: 100%;
-    border-radius: 15px;
 }
 
 .card-4 {
     position: relative;
     background: url("../images/golf.webp") no-repeat center center/cover;
 }
-
-.card-4::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    background: #011343;
-    opacity: 0.7;
-    height: 100%;
-    border-radius: 15px;
-}
-
 .cards img {
     opacity: 1;
     width: 71px;
