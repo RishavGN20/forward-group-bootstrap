@@ -107,6 +107,7 @@
 }
 
 .card-1::before,.card-2::before,.card-3::before,.card-4::before{
+.card-1::before,.card-2::before,.card-3::before,.card-4::before{
 
     position: absolute;
     content: "";
@@ -135,8 +136,6 @@
     position: relative;
     background: url("../images/golf.webp") no-repeat center center/cover;
 }
-
-
 .cards img {
     opacity: 1;
     width: 71px;
@@ -359,6 +358,7 @@
 .left-client {
     /* padding: 180px 30px 105px 130px; */
     padding: 180px 30px 105px 60px;
+  padding: 180px 30px 105px 60px;
 }
 
 .left-client h2 {
@@ -476,6 +476,7 @@
 
 } */
 
+@media screen and (max-width: 1199px) {
 @media screen and (max-width: 1199px) {
 
     .nav-item a {
