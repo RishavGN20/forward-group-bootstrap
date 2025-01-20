@@ -106,9 +106,8 @@
     background: url("../images/Agribusiness.webp") no-repeat center center/cover;
 }
 
-.card-1::before,.card-2::before,.card-3::before,.card-4::before{
-.card-1::before,.card-2::before,.card-3::before,.card-4::before{
 
+.card-1::before,.card-2::before,.card-3::before,.card-4::before{
     position: absolute;
     content: "";
     left: 0;
@@ -160,7 +159,6 @@
 }
 
 .con {
-
     margin-bottom: 150px;
     margin-top: 100px;
 }
@@ -356,8 +354,6 @@
 }
 
 .left-client {
-    /* padding: 180px 30px 105px 130px; */
-    padding: 180px 30px 105px 60px;
   padding: 180px 30px 105px 60px;
 }
 
@@ -469,14 +465,7 @@
 
 
 
-/* @media screen and (max-width: 1400px) {
-    .left-client {
-        padding: 180px 30px 105px 60px;
-    }
 
-} */
-
-@media screen and (max-width: 1199px) {
 @media screen and (max-width: 1199px) {
 
     .nav-item a {
